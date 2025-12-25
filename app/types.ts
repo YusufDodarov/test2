@@ -51,6 +51,8 @@ export interface OrderProducts {
   extra_things:string
 }
 
+
+
 export type Products = {
   products: ProductsWithImages[];
   search: string;

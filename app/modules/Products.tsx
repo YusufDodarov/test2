@@ -38,6 +38,7 @@ export default function Product({isAdmin}:{isAdmin:boolean}) {
     </div>
   );
  } catch (error) {
+  console.log(error)
   return <div></div>
  }
 }

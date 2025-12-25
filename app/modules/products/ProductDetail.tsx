@@ -62,7 +62,7 @@ export default function ProductDetail(product:ProductsWithImages) {
             {el.images && el.images.length > 0 ? (
               <Image src={el.images[0].image}  alt={el.title || "No image"} fill  className="rounded-t-lg object-cover bg-center" quality={70}/>
             ) : (
-              <div className="w-full h-full bg-gray-100 flex items-center justify-center rounded-t-lg text-gray-400">No Image Available</div>
+              <div className="w-full h-full flex items-center justify-center rounded-t-lg ">No Image Available</div>
             )}
           </div>
         </Link>

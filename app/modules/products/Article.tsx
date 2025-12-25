@@ -42,6 +42,7 @@ function Article({ product,isAdmin }: ArticleProps) {
     </Card>
   );
   } catch (error) {
+    console.log(error)
     return <div></div>
   }
 }

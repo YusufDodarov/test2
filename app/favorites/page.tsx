@@ -8,7 +8,7 @@ export default function FavoritesPage() {
   const { favorites, toggleFavorite } = useFavorites();
 
   if (favorites.length === 0) {
-    return <div className="mt-40 text-center text-xl text-gray-500">No favorites yet ❤️</div>
+    return <div className="mt-40 text-center text-xl ">No favorites yet ❤️</div>
   }
 
   return (
@@ -28,7 +28,7 @@ export default function FavoritesPage() {
               <div className="flex flex-col justify-between flex-1">
                 <div>
                   <h2 className="font-semibold line-clamp-2">{product.title}</h2>
-                  <p className="text-sm text-gray-500">Category: {product.category}</p>
+                  <p className="text-sm">Category: {product.category}</p>
                   <p className="font-bold mt-1">${product.price}</p>
                 </div>
 
